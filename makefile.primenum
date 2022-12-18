@@ -1,0 +1,4 @@
+prime.exe: primenum.o
+	gcc -o leap.exe primenum.o
+primenum.o:primenum.c
+	gcc -c primenum.c
