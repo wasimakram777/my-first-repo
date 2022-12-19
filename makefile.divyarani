@@ -1,0 +1,4 @@
+output.exe: sumof2.o
+        gcc -o output.exe sumof2.o
+sunof2.o:sumof2.c
+        gcc -c sumof2.c
