@@ -1,5 +1,5 @@
-abc.exe: hello.o
-	gcc -o abc.exe hello.o
-hello.o:hello.c
-	gcc -c hello.c
+leap.exe: leap_year.o
+	gcc -o leap.exe leap_year.o
+leap_year.o:leap_year.c
+	gcc -c leap_year.c
 	
